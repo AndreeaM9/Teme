@@ -1,86 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="mystyle.css">
-   <title>Survey Form</title>
+   <meta charset="UTF-8">
+   <meta name=viewport content="width=device-width" initial-scale="1.0%">
+   <link rel="stylesheet" href="styles.css">
+   <main id="main">
+   <title id="title">Dr.Sigmund Freud</title>
  </head>
  <body>
-   <div class="forme">
-   <h1 id="title">Survey Form</h1>
-   <p id="description"><em>Answer honestly the following questions regarding some routine habits, for the preparation of an opinion survey:</p>
-   <form id="survey-form">
-     <fieldset>
-     <label for="name">Enter your name: <input required type="text" id="name" placeholder="First and Last Name"></input> </label>
-     <br>
-     <label for="email"> Enter your email:<input require type="email" id="email"  placeholder="Email"></input> </label>
-     <br>
-     <label for="number">Enter your age:<input required id="number" min="15" max="100" type="number" placeholder="Age"></input> </input> </label>
-     <br>
-     <label for="job">Enter what type of job you have (optional)*:<input id="job" placeholder="Your job" type="text"></input> </label>
-     </fieldset>
-     <fieldset>
-       <p>1.When you wake up in the morning, do you check your phone first?</p>
-       <p>
-         <input type="radio" name="yes" value="yes"> Yes <br />
-         <input type="radio" name="no" value="no"> No <br />
-         <input type="radio" name="sometimes" value="sometimes"> Sometimes <br />
-       </p>
-       <hr id="rule">
-       <p>2.Do you usually meditate?</p>
-       <p>
-         <input type="radio" name="yes1" value="yes1"> Yes <br />
-         <input type="radio" name="no1" value="no1"> No <br />
-         <input type="radio" name="sometimes1" value="sometimes1"> Sometimes <br />
-       </p>
-<hr id="rule">
-       <p>3.Do you have a diary in which you label your emotions?</p>
-       <p>
-         <input type="radio" name="yes2" value="yes2"> Yes <br />
-         <input type="radio" name="no2" value="no2"> No <br />
-         <input type="radio" name="sometimes2" value="sometimes2"> Sometimes <br />
-       </p>
-<hr id="rule">
-       <p>4.Do you do sports often?</p>
-       <p>
-         <input type="radio" name="yes3" value="yes3"> Yes <br />
-         <input type="radio" name="no3" value="no3"> No <br />
-         <input type="radio" name="sometimes3" value="sometimes3"> Sometimes <br />
-       </p>
-<hr id="rule">
-       <p>5.You often feel at the job:</p>
-       <label for="stressed"><input type="checkbox" id="stress" name="answer-type"></input>Stressed</label>
-       <label for="exhausted"><input type="checkbox" id="exhausted" name="answer-type"></input>Exhausted</label>
-       <label for="stirred"><input type="checkbox" id="stirred" name="answer-type"></input>Stirred</label>
-       <label for="under pressure"><input type="checkbox" id="under-pressure" name="answer-type"></input>Under pressure</label>
-      </fieldset>
-      <fieldset>
-        <label for="refferer">Which method do you think would help you reach an emotional and mental balance?
-        <select id="refferer" name="refferer">
-<option value="">(select one)</option>
-            <option 
-            value="1">A therapist session
-            </option>
-            <option 
-            value="2">Disconnecting from technology 2 hours a day
-            </option>
-            <option 
-            value="3">Connecting with nature
-            </option>
-            <option 
-            value="4">Other
-            </option>
-          </select>
-        </label>
-        </select>
-
-        <label for="opinion">If you have other methods of emotional help or have heard of other cases of problems related to emotions, you can report them right here:
-          <br>
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Type here..."></textarea>
-        </fieldset>
-        <input type="submit" value="Submit"></input>
-        <p><em>Thank you for your time!</p>
-   </form>
-   </div>
- </body>
+   <main id="main">
+   <section>
+   <h1>Dr.Sigmund Freud</h1>
+   <p id="description">The father of psychoanalysis</p>
+   </section>
+   <figure id="img-div">
+<img src="https://bel-esprit.ro/wp-content/uploads/2019/02/GettyImages-81821408.jpg" id="image">
+    <figcaption id="img-caption">
+      The doctor of psychoanalysis, Sigmund Freud, in his office at the Institute of Psychoanalysis.
+    </figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h3 id="headline">Some information about the life of Sigmund Freud:</h3>
+      <div>
+        <ul>
+          <li>Sigmund Freud (06.05.1856 – 23.09.1939) was an Austrian neurologist, founder of psychoanalysis.</li>
+          <li>In 1873, Freud graduated from the Sperl Gymnasium and, apparently inspired by the public reading of an essay by Goethe on nature, chose to pursue a medical career.
+</li>
+          <li>At the end of 1885, Freud left Vienna to continue his studies in neuropathology in Paris, where he worked under the guidance of Jean Martin Charcot.
+ </li>
+          <li> Although Freud would soon renounce his belief in hypnosis, in February 1886 he returned to Vienna with the seeds of his revolutionary method of practicing psychology in mind.
+</li>
+          <li>Freud had started to give private consultations in neuropsychology, and the office he opened on Berggasse no. 19 would remain the place where he would receive his patients for almost half a century.
+</li>
+        </ul>
+        <h2>If you have time, you should read more about this incredible human being on his on <a id="tribute-link" target="_blank" href="https://ro.wikipedia.org/wiki/Sigmund_Freud">Wikipedia</a>.</h2>
+    </div>
+</body>
+ </main>
 </html>
